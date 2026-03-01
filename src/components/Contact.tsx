@@ -38,7 +38,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-widest font-bold">LinkedIn</p>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-lg text-white font-semibold hover:text-indigo-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/rifkiandreana/" target="_blank" rel="noopener noreferrer" className="text-lg text-white font-semibold hover:text-indigo-400 transition-colors">
                     linkedin.com/in/rifkiandreana
                   </a>
                 </div>
@@ -50,7 +50,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 uppercase tracking-widest font-bold">GitHub</p>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-lg text-white font-semibold hover:text-indigo-400 transition-colors">
+                  <a href="https://github.com/rifkiandreana" target="_blank" rel="noopener noreferrer" className="text-lg text-white font-semibold hover:text-indigo-400 transition-colors">
                     github.com/rifkiandreana
                   </a>
                 </div>

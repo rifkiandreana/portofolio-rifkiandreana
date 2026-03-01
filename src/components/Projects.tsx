@@ -98,7 +98,7 @@ const projects = [
     title: "Pemodelan prediksi gelombang laut selat sunda menggunakan LSTM",
     subtitle: "Universitas Pendidikan Indonesia",
     desc: 'Sunda Strait Ocean Wave Prediction Modeling Using LSTM is a project that aims to predict ocean waves in the Sunda Strait using a Long Short-Term Memory (LSTM) based machine learning model. This research project successfully penetrated Sinta 2 with the title "APPLICATION OF INVERSE DISTANCE WEIGHTED (IDW) INTERPOLATION IN DETERMINING WAVE HEIGHT IN THE WATERS OF THE SUNDA STRAIT".',
-    image: "/lstm.png",
+    image: "/Lstm.png",
     tags: ["Web Development", "Javascript", "PHP", "Yolov8", "flask", "Bootstrap"],
     github: "https://github.com",
     demo: "https://example.com",

@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center md:items-start justify-center md:justify-start gap-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub" className="relative group text-slate-400 hover:text-white transition-colors">
+              <a href="https://github.com/rifkiandreana" target="_blank" rel="noopener noreferrer" title="GitHub" className="relative group text-slate-400 hover:text-white transition-colors">
                 <Github size={24} />
                 <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">GitHub</span>
               </a>
