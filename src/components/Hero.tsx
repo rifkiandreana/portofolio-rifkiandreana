@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Link } from "react-scroll";
-import { ArrowRight, Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, FileUser, ChevronDown } from "lucide-react";
 
 const roles = ["Software Testing Specialist", "Data Analys", "Marine Info Systems Student", "Tech Enthusiast"];
 
@@ -75,14 +75,21 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center md:items-start justify-center md:justify-start gap-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub" className="relative group text-slate-400 hover:text-white transition-colors">
                 <Github size={24} />
+                <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">GitHub</span>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/rifkiandreana/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="relative group text-slate-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
+                <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Linkedin</span>
               </a>
-              <a href="mailto:rifkiandrenasutrisno@gmail.com" className="text-slate-400 hover:text-white transition-colors">
+              <a href="mailto:rifkiandrenasutrisno@gmail.com" target="_blank" title="Email" className="relative group text-slate-400 hover:text-white transition-colors">
                 <Mail size={24} />
+                <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Email</span>
+              </a>
+              <a href="https://drive.google.com/file/d/1Dobl5etlBFgeefEpqzKENUPy0PdQhwd3/view?usp=sharing" target="_blank" title="Resume" className="relative group text-slate-400 hover:text-white transition-colors">
+                <FileUser size={24} />
+                <span className="absolute -top-10 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">Resume</span>
               </a>
             </div>
           </div>
@@ -93,7 +100,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="w-40 h-40 md:w-66 md:h-106 rounded-full md:m-30 md:mr-40 overflow-hidden mx-auto border-2 border-indigo-900/30 shadow-lg"
           >
-            <img src="src/components/asset/foto1.png" alt="Rifki Andreana — Photo" className="w-full h-full object-cover" />
+            <img src="/foto1.png" alt="Rifki Andreana — Photo" className="w-full h-full object-cover" />
           </motion.div>
         </motion.div>
       </div>

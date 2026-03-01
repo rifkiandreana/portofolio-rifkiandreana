@@ -15,7 +15,8 @@ export default function Contact() {
               Let's work <span className="text-gradient">together</span>.
             </h3>
             <p className="text-slate-400 text-lg mb-12 leading-relaxed">
-              I'm currently looking for new opportunities in Software Quality Assurance and Automation. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I'm currently seeking opportunities in Software Quality Assurance and Automation, while also expanding my expertise in Data Analysis. I'm passionate about ensuring product quality and deriving meaningful insights from data.
+              Whether you have a question or would like to connect, I'll be happy to get back to you.
             </p>
 
             <div className="space-y-8">
